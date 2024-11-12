@@ -1,15 +1,22 @@
 D_EXTEND('zhp.pl',
-  Delegation_NS('opolska', ['a.eco.atman.pl.', 'b.eco.atman.pl.']),
-
-  Delegation_NS('brzeg', ['a.eco.atman.pl.', 'b.eco.atman.pl.']),
-  Delegation_NS('glubczyce', ['ns1.ehost.pl.', 'ns2.ehost.pl.']),
-  Delegation_NS('kedzierzynkozle', ['a.eco.atman.pl.', 'b.eco.atman.pl.']),
-  Delegation_NS('krapkowice', ['a.eco.atman.pl.', 'b.eco.atman.pl.']),
-  Delegation_NS('nysa', ['a.eco.atman.pl.', 'b.eco.atman.pl.']),
-  Delegation_NS('opole', ['a.eco.atman.pl.', 'b.eco.atman.pl.']),
-  Delegation_NS('praszka', ['a.eco.atman.pl.', 'b.eco.atman.pl.']),
-  Delegation_NS('harcezastepow', ['a.eco.atman.pl.', 'b.eco.atman.pl.']),       
-         
-
-  CNAME('opolemiasto', 'opole.zhp.pl.')
+	Delegation_A('opolska', '149.56.30.175'),
+	Delegation_A('ninja.opolska.zhp.pl.', '149.56.30.175'),
+	Delegation_A('przekierowania.opolska.zhp.pl.', '149.56.30.175'),
+	Delegation_A('zabbix.opolska.zhp.pl.', '149.56.30.175'),
+	Delegation_A('dokumenty.opolska.zhp.pl.', '149.56.30.175'),
+	Ms365_Subdomain('opolska','zhp.pl'),
+	Delegation_A('brzeg', '149.56.30.175'),
+	Ms365_Subdomain('brzeg','zhp.pl'),
+	Delegation_A('glubczyce', '193.143.77.14'),
+	Ms365_Subdomain('glubczyce','zhp.pl'),
+	Delegation_A('kedzierzynkozle', '149.56.30.175'),
+	Ms365_Subdomain('kedzierzynkozle','zhp.pl'),
+	Delegation_A('krapkowice', '149.56.30.175'),
+	Ms365_Subdomain('krapkowice','zhp.pl'),
+	Delegation_A('nysa', '149.56.30.175'),
+	Ms365_Subdomain('nysa','zhp.pl'),
+	Delegation_A('opole', '149.56.30.175'),
+	Ms365_Subdomain('opole','zhp.pl'),
+	Delegation_A('praszka', '149.56.30.175'),
+	Ms365_Subdomain('praszka','zhp.pl')
 );

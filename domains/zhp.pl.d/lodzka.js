@@ -7,14 +7,17 @@ D_EXTEND('zhp.pl',
     Delegation_NS('lodzgorna', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),
     Delegation_NS('osiemnastka', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),
     Delegation_NS('reduta', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),
-    Delegation_NS('lodzpolesie', ['ns1.zenbox.pl.', 'ns2.zenbox.pl.']),
-    Delegation_NS('lodzsrodmiescie', ['ns1.oiq.pl.', 'ns2.oiq.pl.']),
+
+    Delegation_A('lodzpolesie', '77.55.253.56'),
+    Ms365_Subdomain('lodzpolesie','zhp.pl'),
+    
     Delegation_NS('lodzwidzew', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),
     Delegation_NS('piotrkow', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),
     Delegation_NS('kutno', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),
     Delegation_NS('lask', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),
     Delegation_NS('opoczno', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),
     Delegation_NS('radomsko', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),
+    Delegation_NS('sieradz', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),     
     Delegation_NS('skierniewice', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),
     Delegation_NS('uniejow', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),
     Delegation_NS('zdunskawola', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),
@@ -25,7 +28,6 @@ D_EXTEND('zhp.pl',
     Delegation_NS('glowno', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),
          
     Delegation_A('brzeziny', '212.191.78.183'),
-    Delegation_A('sieradz', '85.232.255.122'),
 
     // Bazy
     Delegation_NS('malecz', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),

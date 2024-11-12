@@ -19,7 +19,7 @@ D_EXTEND('zhp.pl',
     Delegation_NS('ursynow', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),
     Delegation_NS('wola', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),
     Delegation_NS('zoliborz', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),
-    Delegation_A('warszawazoliborz', '185.255.40.28'),
+    Delegation_A('warszawazoliborz', '185.255.40.57'),
     Ms365_Subdomain('warszawazoliborz', 'zhp.pl'),
     Delegation_NS('wolomin', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),
     Delegation_NS('zabki', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),
@@ -27,7 +27,8 @@ D_EXTEND('zhp.pl',
 
 
     // Hufiec Legionowo
-    Delegation_NS('legionowo', ['ns1.atthost.pl.', 'ns2.atthost.pl.']),
+    Delegation_A('legionowo', '77.55.253.56'),
+    Ms365_Subdomain('legionowo', 'zhp.pl'),    
 
 
     // Hufiec Milanowek
@@ -38,6 +39,7 @@ D_EXTEND('zhp.pl',
     // Hufiec Piaseczno
     Delegation_A('piaseczno', '178.32.203.125'),
     Ms365_Subdomain('piaseczno', 'zhp.pl'),
+    Delegation_A('wataha.piaseczno', '178.32.203.125', 'zhp.pl'),
 
 
     // Hufiec Piastów
@@ -51,10 +53,10 @@ D_EXTEND('zhp.pl',
 
     // Hufiec Warszawa-Mokotów
     Delegation_A_WithCfProxy('mokotow', '109.95.159.40'),
+    Delegation_A_WithCfProxy('moko', '109.95.159.40'),
     Delegation_A('208.mokotow', '109.95.159.40', 'zhp.pl'),
     Delegation_A('50.mokotow', '109.95.159.40', 'zhp.pl'),
     Delegation_A('60wdh.mokotow', '109.95.159.40', 'zhp.pl'),
-    Delegation_A('e-rajd.mokotow', '109.95.159.40', 'zhp.pl'),
     Delegation_A('spacer.mokotow', '109.95.159.40', 'zhp.pl'),
     Delegation_A('stopa.mokotow', '109.95.159.40', 'zhp.pl'),
     Delegation_A('szczep40.mokotow', '109.95.159.40', 'zhp.pl'),
@@ -108,5 +110,6 @@ D_EXTEND('zhp.pl',
 
     Delegation_A('14.pruszkow', '185.255.40.54', 'zhp.pl'),
     Delegation_A('paderewski.pruszkow', '185.255.40.54', 'zhp.pl'),
-    Delegation_A('shds.pruszkow', '185.255.40.54', 'zhp.pl')
+    Delegation_A('shds.pruszkow', '185.255.40.54', 'zhp.pl'),
+    Delegation_A('szaniec.pruszkow', '185.255.40.54', 'zhp.pl')
 );
