@@ -41,6 +41,9 @@ D_EXTEND('zhp.pl',
     Ms365_Subdomain('piaseczno', 'zhp.pl'),
     Delegation_A('wataha.piaseczno', '178.32.203.125', 'zhp.pl'),
 
+    Delegation_A('vps.piaseczno', '192.109.241.70'), // VPS hufca piaseczno
+    Delegation_A('dysk.piaseczno', '192.109.241.70'), // Nextcloud hufca piaseczno
+
 
     // Hufiec Piastów
     Delegation_NS('piastow', ['ns1.zenbox.pl.', 'ns2.zenbox.pl.']),
